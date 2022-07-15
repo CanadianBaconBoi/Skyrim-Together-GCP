@@ -3,12 +3,12 @@
 
 ## 1. Account Setup
 Setting up an account with Google Cloud is easy, however you will need a form of payment method and a valid phone number for verification. Note: you will not be charged for any services unless you go outside the limitations of the free trial, we will use these free resources to host your server.
+
+### Do not lie on this, you must have a valid credit/debit card, you will not be charged
 1. Navigate to <https://console.cloud.google.com/freetrial> and login if prompted
 2. Select your Country, select your needs as `Personal Project` (Don't lie), and check the box once you've read the legal documents and continue.
 3. Enter your phone number, enter the verification code, and continue.
-4. Enter your information as follows, ensuring you select an `Individual` and continue:
-
-**Reminder: Do not lie on this, you must have a valid credit/debit card, you will not be charged** ![Account info](img/1.png)
+4. Enter your information as follows, ensuring you select an `Individual` account type and continue: ![Account info](img/1.png)
 5. Close the short survey, and select `SKIP FOR NOW` in the bottom right corner of the tutorial.
 6. Your account is now setup! Tutorial continues below.
 
