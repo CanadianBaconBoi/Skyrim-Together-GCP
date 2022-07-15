@@ -7,12 +7,15 @@ Setting up an account with Google Cloud is easy, however you will need a form of
 2. Select your Country, select your needs as `Personal Project` (Don't lie), and check the box once you've read the legal documents and continue.
 3. Enter your phone number, enter the verification code, and continue.
 4. Enter your information as follows, ensuring you select an `Individual` and continue:
-   **Reminder: Do not lie on this, you must have a valid credit/debit card, you will not be charged** ![Account info](img/1.png)
+
+### Reminder: Do not lie on this, you must have a valid credit/debit card, you will not be charged ![Account info](img/1.png)
 5. Close the short survey, and select `SKIP FOR NOW` in the bottom right corner of the tutorial.
 6. Your account is now setup! Tutorial continues below.
 
 ## 2. VM Setup
-Now that you have an account, you're going to want to setup your VM which will host your Skyrim Together Reborn server. This is pretty easy, however it is also easy to make mistakes, I have before. MAKE SURE YOU FOLLOW EVERYTHING LAID OUT BELOW TO AVOID CHARGES TO YOUR ACCOUNT!
+Now that you have an account, you're going to want to setup your VM which will host your Skyrim Together Reborn server. This is pretty easy, however it is also easy to make mistakes, I have before.
+
+**MAKE SURE YOU FOLLOW EVERYTHING LAID OUT BELOW TO AVOID CHARGES TO YOUR ACCOUNT!**
 1. Navigate to <https://console.cloud.google.com>
 2. In the search bar at the top, enter `Add VM Instance` and click on the first result ![Search](img/2.png)
 3. Select the `ENABLE` button under Compute Engine API and wait for the page to reload![Enable compute engine](img/3.png)
@@ -37,9 +40,10 @@ Now that you have an account, you're going to want to setup your VM which will h
 		  3. Boot disk type: `Standard persistent disk`
 		  4. Size (GB): `10`
 		  5. Click on `SELECT` at the bottom
+	
 	**Ensure it reads `Your free trial credit will be used for this VM instance. GCP Free Tier` above the `CREATE` button at the bottom**
 ### BEFORE YOU PROCEED
-#### Ensure that all of your settings match those above, reference image below! ![VM Settings](img/4.png)
+### Ensure that all of your settings match those above, reference image below! ![VM Settings](img/4.png)
 ### Assuming you have followed the above instructions correctly, click the blue `CREATE` button at the bottom of your screen, and wait for it to be installed.
 ## 3. Firewall Setup!
 You're in the final stretch now, all you have to do is setup "port forwarding" firewall rules to allow you to access your newly created Skyrim Together Reborn server!
