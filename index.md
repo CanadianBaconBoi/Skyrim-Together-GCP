@@ -3,11 +3,11 @@
 
 ## 1. Account Setup
 Setting up an account with Google Cloud is easy, however you will need a form of payment method and a valid phone number for verification. Note: you will not be charged for any services unless you go outside the limitations of the free trial, we will use these free resources to host your server.
-1. Navigate to <https://console.cloud.google.com/freetrial and login if prompted>
+1. Navigate to <https://console.cloud.google.com/freetrial> and login if prompted
 2. Select your Country, select your needs as `Personal Project` (Don't lie), and check the box once you've read the legal documents and continue.
 3. Enter your phone number, enter the verification code, and continue.
 4. Enter your information as follows, ensuring you select an `Individual` and continue:
-   **Reminder: Do not lie on this, you must have a valid credit/debit card, you will not be charged** ![Account info](1.png)
+   **Reminder: Do not lie on this, you must have a valid credit/debit card, you will not be charged** ![Account info](img/1.png)
 5. Close the short survey, and select `SKIP FOR NOW` in the bottom right corner of the tutorial.
 6. Your account is now setup! Tutorial continues below.
 
@@ -43,7 +43,7 @@ Now that you have an account, you're going to want to setup your VM which will h
 ### Assuming you have followed the above instructions correctly, click the blue `CREATE` button at the bottom of your screen, and wait for it to be installed.
 ## 3. Firewall Setup!
 You're in the final stretch now, all you have to do is setup "port forwarding" firewall rules to allow you to access your newly created Skyrim Together Reborn server!
-1. Navigate to <https://console.cloud.google.com/compute/instances
+1. Navigate to <https://console.cloud.google.com/compute/instances>
 2. Copy the `External IP` from your instance and write it down somewhere, this is the IP you will connect to using your Skyrim Together client.
 3. Click the three dots on the right side of your new instance and click `View network details`![View network details](img/5.png)
 4. On the left side, click on `Firewall`
