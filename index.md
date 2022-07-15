@@ -45,6 +45,7 @@ Now that you have an account, you're going to want to setup your VM which will h
 ### BEFORE YOU PROCEED
 ### Ensure that all of your settings match those above, reference image below! ![VM Settings](img/4.png)
 ### Assuming you have followed the above instructions correctly, click the blue `CREATE` button at the bottom of your screen, and wait for it to be installed.
+
 ## 3. Firewall Setup!
 You're in the final stretch now, all you have to do is setup "port forwarding" firewall rules to allow you to access your newly created Skyrim Together Reborn server!
 1. Navigate to <https://console.cloud.google.com/compute/instances>
