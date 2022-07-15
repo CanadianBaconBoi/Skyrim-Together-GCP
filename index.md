@@ -23,16 +23,19 @@ Now that you have an account, you're going to want to setup your VM which will h
 	1. Name: Your Choice
 	2. Region: One of `us-east1`, `us-west1`, or `us-central1` as these are the free ones
 	3. Zone: Leave on default
+
 	**Machine configuration**
 	  1. Machine Family: `GENERAL-PURPOSE`
 	  2. Series: `E2`
 	  3. Machine type: `e2-micro`
+
 	**Container**
 	  1. Click on `DEPLOY CONTAINER`
 		  1. Container Image: `tiltedphoques/st-reborn-server`
 		  2. Restart policy: `Always`
 		  3. Run as privileged: `YES` (this allows it to expose port 10578)
 		  4. Click on `SELECT` at the bottom
+
 	**Boot disk**
 	  1. Click on `CHANGE`
 		  1. Operating system: `Container Optimized OS`
