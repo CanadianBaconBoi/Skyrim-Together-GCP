@@ -1,5 +1,3 @@
-<link rel="shortcut icon" href="img/favicon.ico" />
-
 ## Free Skyrim Together Reborn Server with Google Cloud
 ##### Granted you have a credit/debit card
 
