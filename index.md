@@ -67,6 +67,7 @@ You're in the final stretch now, all you have to do is setup "port forwarding" f
 	11. Protocols and ports: `Specified protocols and ports`
 		1. UDP: `10578`
 	12. Refer to the image below to ensure identical settings and press the `CREATE` button ![Firewall rule settings](img/7.png)
+
 ## 4. Grofit!!
 ### Congratulations, you have setup a Skyrim Together Reborn server for free on Google Cloud Platform!
 
