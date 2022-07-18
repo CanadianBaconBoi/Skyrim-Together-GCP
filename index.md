@@ -12,6 +12,11 @@ Setting up an account with Google Cloud is easy, however you will need a form of
 5. Close the short survey, and select `SKIP FOR NOW` in the bottom right corner of the tutorial.
 6. Your account is now setup! Tutorial continues below.
 
+## **__Automatic Installation__**
+#### Coming Soon.
+
+## **__Manual Installation__**
+
 ## 2. VM Setup
 Now that you have an account, you're going to want to setup your VM which will host your Skyrim Together Reborn server. This is pretty easy, however it is also easy to make mistakes, I have before.
 
